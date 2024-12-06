@@ -18,7 +18,7 @@
 
 
  myMap.delete('city');
- console.log(`Удалили ключ 'city'. Текущий размер Map: ${myMap.size}`); 
+ console.log(`Удалили ключ 'city'. Текущий размер Map ${myMap.size}`); 
 
 
  myMap.forEach((value, key) => {
@@ -27,7 +27,7 @@
 
 
  myMap.clear();
- console.log(`Размер Map после очистки: ${myMap.size}`);
+ console.log(`Размер Map после очистки ${myMap.size}`);
 
 
 
@@ -45,7 +45,7 @@
  console.log(`Содержит ли Set 'Alice'? ${hasAlice}`); 
 
  mySet.delete('New York');
- console.log(`Удалили 'New York'. Текущий размер Set: ${mySet.size}`); 
+ console.log(`Удалили 'New York'. Текущий размер Set ${mySet.size}`); 
 
  mySet.forEach(value => {
     console.log(value);
@@ -53,5 +53,4 @@
 
 
  mySet.clear();
- console.log(`Размер Set после очистки: ${mySet.size}`);
- 
+ console.log(`Размер Set после очистки ${mySet.size}`);
